@@ -12,7 +12,7 @@ name=st.text_area("Student_Name","Enter Your Name")
 usn=st.text_area("USN.","Enter your USN")
 dept=st.text_area("Department","Enter Your Department")
 year=st.radio("Year",["1st year","2nd Year","3rd Year","4th Year"])
-sem=st.radio("Year",["1st sem","2nd sem","3rd sem","4th sem","5th sem","6th sem","7th sem","8th sem"])
+sem=st.radio("Sem",["1st sem","2nd sem","3rd sem","4th sem","5th sem","6th sem","7th sem","8th sem"])
 btn=st.button(" Profile_Detail")
 if btn:
     st.success("Profile Submitted Successfully!")
