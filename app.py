@@ -14,9 +14,9 @@ dept=st.text_area("Department","Enter Your Department")
 year=st.radio("Year",["1st year","2nd Year","3rd Year","4th Year"])
 btn=st.button(" Profile_Detail")
 if btn:
-    st.success("Profile Created Successfully!")
+    st.success("Profile Submitted Successfully!")
 
-    st.subheader("🎓 Student Profile Details")
+    st.subheader("Student Details")
 
     st.write("**Student_Name:**", name)
     st.write("**USN:**", usn)
